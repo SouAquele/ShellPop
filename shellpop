@@ -54,13 +54,14 @@ AVAILABLE_SHELLS = [
             9: ("Powershell TCP", REV_POWERSHELL_TCP),
             10: ("TCLsh TCP", REVERSE_TCLSH),
             11: ("Ncat TCP", REVERSE_NCAT),
-            12: ("Netcat (Traditional) TCP", REVERSE_NC_TRADITIONAL_1),
-            13: ("Netcat (OpenBSD) mkfifo TCP", REVERSE_MKFIFO_NC),
-            14: ("Netcat (OpenBSD) mknod TCP", REVERSE_MKNOD_NC),
-            15: ("Telnet mkfifo TCP", REVERSE_MKFIFO_TELNET),
-            16: ("Telnet mknod TCP", REVERSE_MKNOD_TELNET),
-            17: ("socat TCP", REVERSE_SOCAT),
-            18: ("awk TCP", REVERSE_AWK),
+            12: ("Netcat (Traditional) UDP", REVERSE_NC_UDP_1),
+            13: ("Netcat (Traditional) TCP", REVERSE_NC_TRADITIONAL_1),
+            14: ("Netcat (OpenBSD) mkfifo TCP", REVERSE_MKFIFO_NC),
+            15: ("Netcat (OpenBSD) mknod TCP", REVERSE_MKNOD_NC),
+            16: ("Telnet mkfifo TCP", REVERSE_MKFIFO_TELNET),
+            17: ("Telnet mknod TCP", REVERSE_MKNOD_TELNET),
+            18: ("socat TCP", REVERSE_SOCAT),
+            19: ("awk TCP", REVERSE_AWK),
             }
         ]
 

